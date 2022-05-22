@@ -24,26 +24,27 @@ The text can be found in `TodoError`, `LoginError` and `TodoError` enums, you ca
 ### Tasks
 
 Create automated UI tests for the following scenarios:
-    * Create Account
+
+    1. Create Account
         * Username cannot be empty
         * Password cannot be empty
         * Password and Repeat Password do not match
         * Username is already taken
         * Create account with success
-    * Login
+    2. Login
         * Username cannot be empty
         * Password cannot be empty
         * Authentication failed
-    * Add new todo
+    3. Add new todo
         * Title cannot be empty
         * Add new todo from "Add something" button
         * Add new todo from "Add" button
-    * TodoList
+    4. TodoList
         * Text when no todos are available    
         * Mark Todo as done (tap on the todo)
         * Todo is not done
         * Delete Todo (swipe to delete)
-    * Extra task
+    5. Extra task
         * Add possibility for clearing test data by using `LaunchArguments.append("clearLocalData")` parameter in tests
         
 Finally feel free to modify the existing code. The application is for you.
