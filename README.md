@@ -2,6 +2,11 @@
 
 MyTodoList is a Todo app with local authentication and UserDefaults as a database.
 
+<img src="https://user-images.githubusercontent.com/72853287/174547795-cc07eea5-9d15-4d5c-be28-ccb52da10c1a.png" alt="LoginScreen" width=20% height=20%> <img src="https://user-images.githubusercontent.com/72853287/174547820-258887e0-35a3-4693-83ac-aaab02aeb014.png" alt="CreateAccountScreen" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/72853287/174547829-131f3f4c-25df-4fac-8256-bb5da6312a00.png" alt="EmptyTodoListScreen" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/72853287/174547867-e27f5472-ea97-4e38-ae69-3bee0d8f2ac4.png" alt="TodoListScreen" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/72853287/174547880-14a94277-b7a3-4923-802a-524039d0ffe5.png" alt="AddTodoScreen" width=20% height=20%>
+
 ### Getting started
 
 #### Requirements
@@ -39,7 +44,7 @@ Create automated UI tests for the following scenarios:
         * Title cannot be empty
         * Add new todo from "Add something" button
         * Add new todo from "Add" button
-    4. TodoList
+    4. Todo list
         * Text when no todos are available    
         * Mark Todo as done (tap on the todo)
         * Todo is not done
