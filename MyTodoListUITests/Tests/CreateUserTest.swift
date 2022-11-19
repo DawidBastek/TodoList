@@ -18,6 +18,5 @@ class CreateUserTest: BaseTest {
             .enterRepeatPassword("Pass")
             .tapCreateButton()
         XCTAssertTrue(TodoListScreen().isNothingTodoTextVisible())
-        XCTAssertEqual(ErrorText.loginError, LoginScreen().loginErrorDescription())
     }
 }
