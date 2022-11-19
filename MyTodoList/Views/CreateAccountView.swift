@@ -37,14 +37,17 @@ struct CreateAccountView: View {
                     .padding(.horizontal)
                     .frame(height: 55)
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black))
+                    .accessibilityIdentifier(AccessibilityID.CreateAccount.usernameTextField)
                 SecureField("Password", text: $createAccountViewModel.password)
                     .padding(.horizontal)
                     .frame(height: 55)
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black))
+                    .accessibilityIdentifier(AccessibilityID.CreateAccount.passwordTextField)
                 SecureField("Repeat password", text: $createAccountViewModel.repeatPassword)
                     .padding(.horizontal)
                     .frame(height: 55)
                     .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black))
+                    .accessibilityIdentifier(AccessibilityID.CreateAccount.repeatPasswordTextField)
             }
             .padding(15)
             
@@ -57,10 +60,12 @@ struct CreateAccountView: View {
                         .frame(maxWidth: .infinity)
                         .background(Color.accentColor)
                         .cornerRadius(10)
+                        .accessibilityIdentifier(AccessibilityID.CreateAccount.createButton)
                 }
                 Button(action: cancelButtonPressed) {
                     Text("Cancel")
                         .bold()
+                        .accessibilityIdentifier(AccessibilityID.CreateAccount.cancelButton)
                 }
             }
             .padding(15)

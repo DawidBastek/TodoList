@@ -23,6 +23,7 @@ struct NoItemsView: View {
                 Text("Nothing todo!")
                     .font(.title)
                     .fontWeight(.semibold)
+                    .accessibilityIdentifier(AccessibilityID.TodoList.nothingTodoText)
                 Text("You can start by clicking the button.")
                 NavigationLink(destination: AddView(addItemHandler: addItemHandler), label: {
                     Text("Add something 🥳")

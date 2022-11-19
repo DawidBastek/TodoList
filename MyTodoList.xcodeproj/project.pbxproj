@@ -11,13 +11,27 @@
 		68CAAA73282AB8FA00B0977D /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CAAA72282AB8FA00B0977D /* DB.swift */; };
 		68CAAA75282AC01C00B0977D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CAAA74282AC01C00B0977D /* LoginViewModel.swift */; };
 		68CAAA77282AC61300B0977D /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CAAA76282AC61300B0977D /* CreateAccountViewModel.swift */; };
+		6D4057DE2928F5CD00E80DD9 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057DD2928F5CD00E80DD9 /* BaseScreen.swift */; };
+		6D4057E02928F73500E80DD9 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057DF2928F73500E80DD9 /* BaseTest.swift */; };
+		6D4057E22928F9DC00E80DD9 /* CreateUserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057E12928F9DC00E80DD9 /* CreateUserTest.swift */; };
+		6D4057E42928FCBB00E80DD9 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057E32928FCBB00E80DD9 /* LoginScreen.swift */; };
+		6D4057E6292916B800E80DD9 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057E5292916B800E80DD9 /* CreateAccountScreen.swift */; };
+		6D4057E8292916C400E80DD9 /* TodoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057E7292916C400E80DD9 /* TodoListScreen.swift */; };
+		6D4057EB292923B900E80DD9 /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EA292923B900E80DD9 /* AccessibilityID.swift */; };
+		6D4057ED2929245500E80DD9 /* AccessibilityID.Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EC2929245500E80DD9 /* AccessibilityID.Login.swift */; };
+		6D4057EF292924D100E80DD9 /* AccessibilityID.CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EE292924D100E80DD9 /* AccessibilityID.CreateAccount.swift */; };
+		6D4057F12929254800E80DD9 /* AccessibilityID.TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057F02929254800E80DD9 /* AccessibilityID.TodoList.swift */; };
+		6D4057F22929262F00E80DD9 /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EA292923B900E80DD9 /* AccessibilityID.swift */; };
+		6D4057F32929263400E80DD9 /* AccessibilityID.Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EC2929245500E80DD9 /* AccessibilityID.Login.swift */; };
+		6D4057F42929263700E80DD9 /* AccessibilityID.CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057EE292924D100E80DD9 /* AccessibilityID.CreateAccount.swift */; };
+		6D4057F52929263A00E80DD9 /* AccessibilityID.TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057F02929254800E80DD9 /* AccessibilityID.TodoList.swift */; };
+		6D4057F7292932C200E80DD9 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4057F6292932C200E80DD9 /* LoginTests.swift */; };
 		6D4218842824562A005F0647 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4218832824562A005F0647 /* CreateAccountView.swift */; };
+		6D7CF6DA29269F6F00295BE7 /* Showcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CF6D929269F6F00295BE7 /* Showcase.swift */; };
 		6DC072942822AF59002D2F2B /* MyTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC072932822AF59002D2F2B /* MyTodoListApp.swift */; };
 		6DC072982822AF5B002D2F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC072972822AF5B002D2F2B /* Assets.xcassets */; };
 		6DC0729B2822AF5B002D2F2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0729A2822AF5B002D2F2B /* Preview Assets.xcassets */; };
 		6DC072A52822AF5B002D2F2B /* MyTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC072A42822AF5B002D2F2B /* MyTodoListTests.swift */; };
-		6DC072AF2822AF5B002D2F2B /* MyTodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC072AE2822AF5B002D2F2B /* MyTodoListUITests.swift */; };
-		6DC072B12822AF5B002D2F2B /* MyTodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC072B02822AF5B002D2F2B /* MyTodoListUITestsLaunchTests.swift */; };
 		6DC072BF2822AFC5002D2F2B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC072BE2822AFC5002D2F2B /* ListView.swift */; };
 		6DC8AA4B2822B294002D6FE5 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8AA4A2822B294002D6FE5 /* ListRowView.swift */; };
 		6DC8AA4D2822B93C002D6FE5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8AA4C2822B93C002D6FE5 /* AddView.swift */; };
@@ -50,7 +64,19 @@
 		68CAAA72282AB8FA00B0977D /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		68CAAA74282AC01C00B0977D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		68CAAA76282AC61300B0977D /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		6D4057DD2928F5CD00E80DD9 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		6D4057DF2928F73500E80DD9 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		6D4057E12928F9DC00E80DD9 /* CreateUserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserTest.swift; sourceTree = "<group>"; };
+		6D4057E32928FCBB00E80DD9 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		6D4057E5292916B800E80DD9 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		6D4057E7292916C400E80DD9 /* TodoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListScreen.swift; sourceTree = "<group>"; };
+		6D4057EA292923B900E80DD9 /* AccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityID.swift; sourceTree = "<group>"; };
+		6D4057EC2929245500E80DD9 /* AccessibilityID.Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityID.Login.swift; sourceTree = "<group>"; };
+		6D4057EE292924D100E80DD9 /* AccessibilityID.CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityID.CreateAccount.swift; sourceTree = "<group>"; };
+		6D4057F02929254800E80DD9 /* AccessibilityID.TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityID.TodoList.swift; sourceTree = "<group>"; };
+		6D4057F6292932C200E80DD9 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		6D4218832824562A005F0647 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		6D7CF6D929269F6F00295BE7 /* Showcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showcase.swift; sourceTree = "<group>"; };
 		6DC072902822AF59002D2F2B /* MyTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC072932822AF59002D2F2B /* MyTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodoListApp.swift; sourceTree = "<group>"; };
 		6DC072972822AF5B002D2F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,8 +84,6 @@
 		6DC072A02822AF5B002D2F2B /* MyTodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC072A42822AF5B002D2F2B /* MyTodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodoListTests.swift; sourceTree = "<group>"; };
 		6DC072AA2822AF5B002D2F2B /* MyTodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC072AE2822AF5B002D2F2B /* MyTodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodoListUITests.swift; sourceTree = "<group>"; };
-		6DC072B02822AF5B002D2F2B /* MyTodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DC072BE2822AFC5002D2F2B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		6DC8AA4A2822B294002D6FE5 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		6DC8AA4C2822B93C002D6FE5 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -101,6 +125,52 @@
 				68CAAA72282AB8FA00B0977D /* DB.swift */,
 			);
 			path = DB;
+			sourceTree = "<group>";
+		};
+		6D4057E92929238300E80DD9 /* AccessibilityIdentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6D4057EA292923B900E80DD9 /* AccessibilityID.swift */,
+				6D4057EC2929245500E80DD9 /* AccessibilityID.Login.swift */,
+				6D4057EE292924D100E80DD9 /* AccessibilityID.CreateAccount.swift */,
+				6D4057F02929254800E80DD9 /* AccessibilityID.TodoList.swift */,
+			);
+			path = AccessibilityIdentifiers;
+			sourceTree = "<group>";
+		};
+		6D7CF6DF2926AC9200295BE7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6D4057DD2928F5CD00E80DD9 /* BaseScreen.swift */,
+				6D4057E32928FCBB00E80DD9 /* LoginScreen.swift */,
+				6D4057E5292916B800E80DD9 /* CreateAccountScreen.swift */,
+				6D4057E7292916C400E80DD9 /* TodoListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6D7CF6E02926ACA000295BE7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4057DF2928F73500E80DD9 /* BaseTest.swift */,
+				6D4057E12928F9DC00E80DD9 /* CreateUserTest.swift */,
+				6D4057F6292932C200E80DD9 /* LoginTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6D7CF6E12926ACC200295BE7 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		6D7CF6E22926ACDC00295BE7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		6DC072872822AF59002D2F2B = {
@@ -156,8 +226,12 @@
 		6DC072AD2822AF5B002D2F2B /* MyTodoListUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6DC072AE2822AF5B002D2F2B /* MyTodoListUITests.swift */,
-				6DC072B02822AF5B002D2F2B /* MyTodoListUITestsLaunchTests.swift */,
+				6D4057E92929238300E80DD9 /* AccessibilityIdentifiers */,
+				6D7CF6DF2926AC9200295BE7 /* Screens */,
+				6D7CF6E02926ACA000295BE7 /* Tests */,
+				6D7CF6E12926ACC200295BE7 /* TestData */,
+				6D7CF6E22926ACDC00295BE7 /* Helpers */,
+				6D7CF6D929269F6F00295BE7 /* Showcase.swift */,
 			);
 			path = MyTodoListUITests;
 			sourceTree = "<group>";
@@ -328,11 +402,15 @@
 			files = (
 				6DC8AA502822DC5C002D6FE5 /* ItemModel.swift in Sources */,
 				68CAAA73282AB8FA00B0977D /* DB.swift in Sources */,
+				6D4057F42929263700E80DD9 /* AccessibilityID.CreateAccount.swift in Sources */,
 				6DC8AA4D2822B93C002D6FE5 /* AddView.swift in Sources */,
+				6D4057F52929263A00E80DD9 /* AccessibilityID.TodoList.swift in Sources */,
 				6DC8AA532822E0BB002D6FE5 /* ListViewModel.swift in Sources */,
 				68CAAA77282AC61300B0977D /* CreateAccountViewModel.swift in Sources */,
 				6D4218842824562A005F0647 /* CreateAccountView.swift in Sources */,
 				6DC072942822AF59002D2F2B /* MyTodoListApp.swift in Sources */,
+				6D4057F32929263400E80DD9 /* AccessibilityID.Login.swift in Sources */,
+				6D4057F22929262F00E80DD9 /* AccessibilityID.swift in Sources */,
 				6DC072BF2822AFC5002D2F2B /* ListView.swift in Sources */,
 				6DC8AA552822F4F9002D6FE5 /* NoItemsView.swift in Sources */,
 				68CAAA75282AC01C00B0977D /* LoginViewModel.swift in Sources */,
@@ -354,8 +432,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC072B12822AF5B002D2F2B /* MyTodoListUITestsLaunchTests.swift in Sources */,
-				6DC072AF2822AF5B002D2F2B /* MyTodoListUITests.swift in Sources */,
+				6D4057E22928F9DC00E80DD9 /* CreateUserTest.swift in Sources */,
+				6D4057E02928F73500E80DD9 /* BaseTest.swift in Sources */,
+				6D4057F12929254800E80DD9 /* AccessibilityID.TodoList.swift in Sources */,
+				6D4057EF292924D100E80DD9 /* AccessibilityID.CreateAccount.swift in Sources */,
+				6D7CF6DA29269F6F00295BE7 /* Showcase.swift in Sources */,
+				6D4057F7292932C200E80DD9 /* LoginTests.swift in Sources */,
+				6D4057ED2929245500E80DD9 /* AccessibilityID.Login.swift in Sources */,
+				6D4057E42928FCBB00E80DD9 /* LoginScreen.swift in Sources */,
+				6D4057E6292916B800E80DD9 /* CreateAccountScreen.swift in Sources */,
+				6D4057E8292916C400E80DD9 /* TodoListScreen.swift in Sources */,
+				6D4057EB292923B900E80DD9 /* AccessibilityID.swift in Sources */,
+				6D4057DE2928F5CD00E80DD9 /* BaseScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
